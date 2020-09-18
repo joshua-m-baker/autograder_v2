@@ -1,0 +1,30 @@
+assigned: 2020-03-05
+assignment: 50
+due: 2020-04-03
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - description: "Assignment 50 folder setup correctly, including data.csv"
+    point_value: 10
+  - point_value: 0
+    description: "General notes to be aware of, not a deduction of points"
+- name: "Problem 1"
+  filename: "expect.py"
+  instructions: "Re-read the homework document for a complete view of intended functionality. Be generous with partial credit even if the graph doesn't show"
+  parts:
+  - description: "data.csv is in the repo"
+    point_value: 10
+  - description: "Relative path to the data file is correct"
+    point_value: 10
+  - description: "Plot is saved to a png file"
+    point_value: 30
+  - description: "Plot has a legend for the 6 data types, with separate colors and symbols"
+    point_value: 30
+  - description: "Plot has correct title" 
+    point_value: 30
+  - description: "Proper data processing and analysis (including correct county and year)" 
+    point_value: 90
+  - description: "Correct graph of life expectancy for male and female." 
+    point_value: 90

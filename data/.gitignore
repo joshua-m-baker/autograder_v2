@@ -1,0 +1,10 @@
+
+# Keep tex temp/log files out of repo
+**/reports/**/*.log
+**/reports/**/*.aux
+**/reports/**/*.syntex.gz
+**/reports/**/*.out
+**/reports/**/*.bbl
+**/reports/**/*.toc
+**/reports/**/*.pdf
+**/reports/**

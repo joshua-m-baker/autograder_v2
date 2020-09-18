@@ -1,0 +1,32 @@
+config/config.ini
+
+
+
+**/__pycache__/
+*.pyc
+
+#ignore grading session data
+tempdata/
+**/sample.txt
+
+#These are person specific
+usernames.txt
+reports/
+.vscode/
+results.csv
+config.yaml
+grades.txt
+grades.csv
+
+# Mac specific file
+.DS_Store
+
+Session.vim
+
+**/data**
+
+# Excel 
+~*.xlsx
+
+#Generated Figures
+*.png

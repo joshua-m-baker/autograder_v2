@@ -1,0 +1,110 @@
+assigned: 2020-02-12
+assignment: 4
+due: 2020-02-19
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 10
+    description: "Assignment 4 folder setup correctly"
+  - point_value: 35
+    description: "funtriangle.py, makeitrain.py, donor.py, palindrome.py, roman.py, moreloops.py, and farm.py exist and are named correctly (5 pts each)"
+  - point_value: 0
+    description: "General notes to be aware of, not a deduction of points"
+- name: "Problem 1"
+  filename: "funtriangle.py"
+  instructions: "Grade nicely. Should have used for loops. Hard coded single loops get 0"
+  parts:
+  - point_value: 10
+    description: "Triangle 1 created correctly"
+  - point_value: 20
+    description: "Triangle 2 created correctly with accurate pattern"
+  - point_value: 15
+    description: "Triangle 3 created correctly "
+- name: "Problem 2"
+  filename: "makeitrain.py"
+  instructions: "Values might not be exact but will be close because of rounding"
+  parts:
+  - description: "Code runs"
+    point_value: 5
+  - description: "Returns a list (or a tuple) with 4 values"
+    point_value: 10
+  - description: "Code looks reasonably correct"
+    point_value: 10
+  - description: "Test values" # Update Josh
+    point_value: 20
+- name: "Problem 3"
+  filename: "donor.py"
+  instructions: "Only 2 functions, red\_blood\_compability and transfusion. Make note on red\_blood\_compability that they could have just used the dictionary"
+  parts:
+  - description: "Did not modify code outside of function"
+    point_value: 15
+  - description: "red\_blood\_compability: Returns the desired type (List or tuples of blood types)"
+    point_value: 10
+  - description: "transfusion: Returns a 0 or 1"
+    point_value: 5
+  - description: "transfusion: Modifies bank IF enough of the blood type"
+    point_value: 10
+  - description: "transfusion: Rejects if types not compatible or not enough in bank"
+    point_value: 10
+  - description: "Passes test cases for function red\_blood\_compability" # Update Josh
+    point_value: 15
+  - description: "Passes test cases for function transfusion" # Update Josh
+    point_value: 15
+- name: "Problem 4"
+  filename: "palindrome.py"
+  instructions: "If they used reversed, [::-1] or something that shortcuts not using a loop, 0"
+  parts:
+  - description: "Utilizes a loop"
+    point_value: 20
+  - description: "Returns a boolean"
+    point_value: 10
+  - description: "Passes test cases"  # Update Josh
+    point_value: 15
+- name: "Problem 5"
+  filename: "roman.py"
+  instructions: "Watch out for copies on this as you grade students repetitively"
+  parts:
+  - description: "Did not modify code outside of function"
+    point_value: 15
+  - description: "Returns a string"
+    point_value: 15
+  - description: "Did not modify code outside of function"
+    point_value: 15
+  - description: "Passes test cases"  # Update Josh
+    point_value: 15
+- name: "Problem 6"
+  filename: "moreloops.py"
+  instructions: "Each problem had to use a for loop (actually use the loop). They could not use count, append, remove, pop, or join. If they used a forbidden function, 0 for the problem. The could not use 'sum', 'min', 'max' on a whole list, "
+  parts:
+  - description: "Function maxFor was reasonably attempted, run, and returns correct type (5 for each part)"
+    point_value: 15
+  - description: "Function maxWhile was reasonably attempted, run, and returns correct type (5 for each part)"
+    point_value: 15
+  - description: "Function minFor was reasonably attempted, run, and returns correct type (5 for each part)"
+    point_value: 15
+  - description: "Function RemoveEvens was reasonably attempted, run, and returns correct type (5 for each part)"
+    point_value: 15
+  - description: "Function myReplace was reasonably attempted, run, and returns correct type (5 for each part)"
+    point_value: 15
+  - description: "Function sumOdd was reasonably attempted, run, and returns correct type (5 for each part)"
+    point_value: 15
+  - description: "Function StringConcat was reasonably attempted, run, and returns correct type (5 for each part)"
+    point_value: 15
+  - description: "Passes test cases"  # Update Josh
+    point_value: 70
+- name: "Problem 7"
+  filename: "farm.py"
+  instructions: "You will need to check function f and make sure they did the for loop properly"
+  parts:
+  - description: "Calculated f correctly"
+    point_value: 15
+  - description: "Utilizes the vol function (inside main or in f, either or) correctly"
+    point_value: 15
+  - description: "Does a brute force inside of main"
+    point_value: 15
+  - description: "Passes test cases"  # Update Josh
+    point_value: 5
+
+      

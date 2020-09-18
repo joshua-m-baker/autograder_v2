@@ -1,0 +1,106 @@
+assigned: 2020-03-05
+assignment: 6
+due: 2020-03-11
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 10
+    description: "Assignment 6 folder setup correctly"
+  - point_value: 40
+    description: "entropy.py, alpha.py, happy.txt, ones.py, nines.py, squares.py, luddy.py, wish.py (5 for each)"
+  - point_value: 0
+    description: "General notes to be aware of, not a deduction of points"
+- name: "Problem 1"
+  filename: "entropy.py"
+  instructions: "Ensure the function are working separately of each other"
+  parts:
+  - description: "makeProbability returns a list of floats"
+    point_value: 5
+  - description: "Code for makeProbability looks correct"
+    point_value: 15
+  - description: "entropy returns a float"
+    point_value: 5
+  - description: "Code for entropy looks correct"
+    point_value: 15
+  - description: "Test cases for makeProbability" 
+    point_value: 20 
+  - description: "Test cases for entropy" 
+    point_value: 20 
+- name: "Problem 2"
+  filename: "alpha.py"
+  instructions: "This function has to be checked manually. It is not required to use the 'chr' and 'ord', as they could have a hard coded string of ALL lowercase letters. Also make sure that all letters are there, since 'z' isn't present in the test document"
+  parts:
+  - description: "Path used is 'Assignment6/happy.txt', as shown in the assignment file"
+    point_value: 10
+  - description: "The dictionary is prepared. They don't hard code specific letters ('z':0). Allowed to fill the dictionary with default values for ALL letters."
+    point_value: 10
+  - description: "Counts are correct"
+    point_value: 26
+  - description: "Printed out in order (all or nothing) without using built-in sort function"
+    point_value: 6
+  - description: "Each letter is printed on own line (all or nothing)"
+    point_value: 8
+- name: "Problem 3"
+  filename: "ones.py"
+  instructions: "Ensure they are not using count or sorting the list."
+  parts:
+  - description: "Uses a loop to count the number of occurences 1s in a row."
+    point_value: 20
+  - description: "Returns an integer"
+    point_value: 10
+  - description: "Test cases"
+    point_value: 40 
+- name: "Problem 4"
+  filename: "nines.py"
+  instructions: "Ensure that they are not dividing (/) by 9 or using (%). They can check if the value is equal to 9"
+  parts:
+  - description: "Returns a boolean"
+    point_value: 10
+  - description: "Reduces the integer to a single value"
+    point_value: 20
+  - description: "Test cases" 
+    point_value: 40
+- name: "Problem 5"
+  filename: "squares.py"
+  instructions: "The formatting of the squares in the homework document makes it look like there are additional print statements. If they have an extra new line between the stars, that is fine. Also they could have it like the homework, where there are equal lengths of stars, but it looks like a rectangle, or they can space it out to look like a square. Both are fine."
+  parts:
+  - description: "Correct number of stars for a given n"
+    point_value: 25
+  - description: "Number of stars on each level is correct"
+    point_value: 25
+  - description: "Function will work for any n greater than 1"
+    point_value: 15
+- name: "Problem 6"
+  filename: "luddy.py"
+  instructions: "Since instruction are conflicting, it doesn't matter if they go from 100 - 0 or 0 - 100. They are allowed to use min / max, but as long as it does Brute Force. So they cannot calculate all the possible calculations THEN do min on the list. Although there are test cases, you still need to run their code since additional stuff is supposed to happen outside the functions"
+  parts:
+  - description: "Function area returns a boolean"
+    point_value: 5
+  - description: "function area looks correct"
+    point_value: 20
+  - description: "Function f returns a float or integer"
+    point_value: 5
+  - description: "Function f utilizes the formula correctly"
+    point_value: 10
+  - description: "Function f looks correct"
+    point_value: 15
+  - description: "Implements brute force correctly. (nested loops and updates the minimum in the loop)."
+    point_value: 30
+  - description: "Test cases for area" 
+    point_value: 10 
+  - description: "Test cases for f"
+    point_value: 20 
+- name: "Problem 7"
+  filename: "wish.py"
+  instructions: "Ensure that they are using loops, not using the built in average function or using sum inside of the function (since it is used in the example)."
+  parts:
+  - description: "Returns a float"
+    point_value: 10
+  - description: "Function utilizes multiple loops (in order to find the average of the whole matrix)"
+    point_value: 20
+  - description: "Code looks reasonably correct"
+    point_value: 20
+  - description: "Test values"
+    point_value: 20

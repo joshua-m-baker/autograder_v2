@@ -1,0 +1,69 @@
+assigned: 2020-04-22
+assignment: 10
+due: 2020-04-30
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 10
+    description: "Assignment 10 folder setup correctly"
+  - point_value: 25
+    description: "In folder: haversine.py, lineclass.py, weird.py, acme\_zyx.txt, correlation.py (5 each)"
+  - point_value: 0
+    description: "Any over comments that are in general"
+- name: "Haversine"
+  filename: "haversine.py"
+  instructions: "Check the output carefully"
+  parts:
+  - description: "Answered the question in the comments at the top"
+    point_value: 15
+  - description: "Completed the haversine function following the formula"
+    point_value: 30
+  - description: "Test Cases" # Update Josh
+    point_value: 10
+- name: "Lines"
+  filename: "lineclass.py"
+  instructions: "Check the code. Ensure that they didn't change str, draw, get\_line"
+  parts:
+  - description: "Completed the constructor with at least 3 conditionals and finds the 3 instance variables in each (10 for each sub-part (instance variables))"
+    point_value: 90
+  - description: "mult (intersection) works"
+    point_value: 30
+- name: "The weird one"
+  filename: "weird.py"
+  instructions: "Check the code"
+  parts:
+  - description: "File runs"
+    point_value: 10
+  - description: "Answered question in comments at top"
+    point_value: 20
+  - description: "Completed f(n)"
+    point_value: 20
+  - description: "Completed g(n)"
+    point_value: 30
+- name: "Correlation"
+  filename: "correlation.py"
+  instructions: "Check the code. Problem gets a 0 (for the specific function) if using any external library to shortcut the calculations (Allowed to use sum, len, min, max, and any from math that do not short cut the work)"
+  parts:
+  - description: "Program runs"
+    point_value: 10
+  - description: "Completed readFile function"
+    point_value: 15
+  - description: "Filled in the text file correctly"
+    point_value: 10
+  - description: "Completed mean function"
+    point_value: 15
+  - description: "Completed sd function"
+    point_value: 15
+  - description: "Completed r function"
+    point_value: 15
+  - description: "Changed the range in main (arange updated)"
+    point_value: 5
+  - description: "Manually created their own best fit line (doesn't have to be perfect, will be eyeballed)"
+    point_value: 5
+  - description: "Updated the axis"
+    point_value: 5
+  - description: "Changed the labels"
+    point_value: 5
+

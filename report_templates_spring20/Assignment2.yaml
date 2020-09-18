@@ -1,0 +1,40 @@
+assigned: 2020-01-30
+assignment: 2
+due: 2020-02-05
+problems:
+- name: Mayhem
+  filename: mayhem.py
+  instructions: Take 3 points function that has an input statement
+  parts:
+  - description: Function is syntactically correct (5 for each)
+    point_value: 85
+  - description: Points of functions (5 for each)(speed, distance, time, hours\_to\_min, min\_to\_sec, feet\_to\_mile, miles\_to\_kilometers, k\_to\_m, miles\_to\_feet, degrees\_to\_radians, p\_to\_k, ly\_to\_p)
+    point_value: 60
+  - description: Points for each (10 for each) (loc\_c, c\_to\_f, f\_to\_c, k\_to\_f, pc)
+    point_value: 50
+- name: Taxing
+  filename: 2019tax.py
+  instructions: File can be named either 2019.py or 2019tax.py without penalty
+  parts:
+  - description: Proper implementation of the \texttt{unmarriedTax} function.
+    point_value: 25
+  - description: Proper implementation of the \texttt{marriedTax} function.
+    point_value: 25
+- name: Circuit
+  filename: circuit.py
+  instructions: Value type 
+  parts:
+  - description: Utilizes \texttt{and}, \texttt{or}, and \texttt{not}
+    point_value: 10
+  - description: Correct output (3 points per each output)
+    point_value: 24
+- name: Plotting
+  filename: coolline.py
+  instructions: ''
+  parts:
+  - description: Program runs 
+    point_value: 25
+  - description: Title name changed
+    point_value: 15
+  - description: Function added to graph
+    point_value: 15

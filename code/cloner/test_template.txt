@@ -1,0 +1,41 @@
+import sys
+import os
+import importlib
+from ruamel import yaml
+
+abs_path = r"$grader_path" + "/.."
+sys.path.insert(0, abs_path + "/code")
+import grader.newTestRunner as testRunner
+
+
+def main():
+    username='$username'
+    test_value_path = "grader.testValues.Assignment${assignment_number}"
+    solution_path = "grader.solutions.Assignment${assignment_number}"
+
+    test_data = importlib.import_module(test_value_path).tests
+
+    student_module_names = test_data.keys()
+    solution_module_names = [f+"_solution" for f in student_module_names]
+
+    studentModules = testRunner.importModules(student_module_names)
+    solutionModules = testRunner.importModules(solution_module_names, solution_path)
+
+    results = testRunner.runTests(test_data, studentModules, solutionModules)
+
+    testRunner.print_results(results)
+
+    results = {}
+    for module_name, function_dict in results.items():
+
+        results[module_name] = {}
+
+        for function_name, test_list in function_dict.items():
+            results[module_name + ".py"][function_name].append(testCase.run_test().dict_repr())
+
+
+    with open(abs_path + f"/data/fragments/{username}/Assignment${assignment_number}-autograder.yaml", 'w') as f:
+        f.write(yaml.dump(results))
+
+if __name__ == "__main__":
+    main()

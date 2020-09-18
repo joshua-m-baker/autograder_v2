@@ -1,0 +1,44 @@
+
+
+\documentclass[a4paper,11pt]{{article}}
+
+\usepackage{{fullpage}}
+\usepackage{{listings}}
+\lstset{{
+  breaklines=true,
+}}
+
+\newcommand{{\linia}}{{\rule{{\linewidth}}{{0.5pt}}}}
+% my own titles
+\makeatletter
+\renewcommand{{\maketitle}}{{
+\begin{{center}}
+\vspace{{2ex}}
+{{\huge \textsc{{\@title}}}}
+\vspace{{1ex}}
+\\
+\linia \\
+\vspace{{0.5cm}}
+\@author
+\linia \\
+\vspace{{0.5cm}}
+\@date
+\vspace{{4ex}}
+\end{{center}}
+}}
+\makeatother
+
+
+\begin{{document}}
+
+\title{{CSCI C200 Introduction to Computers and Programming \\ \vspace{{1cm}} Spring 2020 Grade Report}}
+\author{{ {name} \\ \vspace{{0.5cm}} Computer Science \\ School of Informatics, Computing, and Engineering \\ 
+\begin{{center}}Indiana University,  Bloomington, IN, USA\end{{center}}}}
+\date{{\today}}
+\maketitle
+
+
+\newpage
+\input{{Assignments/Assignment1}}
+
+\end{{document}}

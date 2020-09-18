@@ -1,0 +1,64 @@
+assigned: 2020-05-14
+assignment: 2
+due: 2020-05-20
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - description: "Assignment2 folder setup correctly"
+    point_value: 10
+  - description: "In folder: myCalc.py, old.py, warping.py, condprac.py (5 each)"
+    point_value: 20
+  - description: "Any over comments that are in general"
+    point_value: 0
+- name: Equations
+  filename: myCalc.py
+  instructions: "You can rely heavily on the test cases"
+  parts:
+  - description: "Code runs"
+    point_value: 10
+  - description: "Functions look correct (calculates (2 pts), returns (1pt))"
+    point_value: 63
+  - description: "Test Cases (2 pts per function)"
+    point_value: 42
+- name: Old
+  filename: old.py
+  instructions: ""
+  parts:
+  - description: "Code runs"
+    point_value: 10
+  - description: "Created function `themath` with 1 parameter and returns one value (38....)"
+    point_value: 10
+  - description: "Created function `thecost` with 2 parameters and returns one value "
+    point_value: 10
+  - description: "Created function `bouncing` with 1 parameter and returns the volume"
+    point_value: 10
+- name: "Warp Factor"
+  filename: warpFactor.py
+  instructions: "Make sure it is inclusive (lightSpeed < 1 --> 0 ... 1 >= lightSpeed --> 1"
+  parts:
+  - description: "Code runs"
+    point_value: 10
+  - description: "Returns a warp speed for all 10 warp factors"
+    point_value: 10
+  - description: "Conditions are correct (lower bounds)"
+    point_value: 10
+  - description: "Test values"
+    point_value: 20
+- name: Conditional Practice
+  filename: condprac.py
+  instructions: 'It is alright if the fun2 is not exactly correct.'
+  parts:
+  - description: "Code runs" 
+    point_value: 10
+  - description: "Outputs match at the bottom for fun1 and fun1\_reworked"
+    point_value: 8
+  - description: "Outputs match at the bottom for fun2 and fun2\_reworked"
+    point_value: 9
+  - description: "fun1: Adjusted the conditions (2 pts each) to use ifs (no elses or elif are allowed). If condition contains elif or else, 0 point for condition"
+    point_value: 10
+  - description: "fun2: boolean condition looks equivalent to original statement"
+    point_value: 5
+  - description: "Output matches pre-made situation"
+    point_value: 10

@@ -1,0 +1,12 @@
+assigned: 2020-05-17
+assignment: 0
+due: 2020-05-17
+problems:
+- name: "Structuring" #TODO change
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - description: "Assignment 50 folder setup correctly, including data.csv"
+    point_value: 10
+  - point_value: 0
+    description: "General notes to be aware of, not a deduction of points"

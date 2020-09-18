@@ -1,0 +1,49 @@
+assigned: 2020-04-15
+assignment: 9
+due: 2020-04-23
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 10
+    description: "Assignment 9 folder setup correctly"
+  - point_value: 30
+    description: "In folder: randomwalk.py, mymap.py, complex.py (10 points each)"
+  - point_value: 0
+    description: "Any over comments that are in general"
+- name: "Random Walk"
+  filename: "randomwalk.py"
+  instructions: "Check the code and output"
+  parts:
+  - description: "Step function implements the piecewise function in equation 2"
+    point_value: 40
+  - description: "Output of graph looks correct for 100000"
+    point_value: 20
+- name: "My Map"
+  filename: "mymap.py"
+  instructions: "Check the code"
+  parts:
+  - description: "Added building location for IUs Musical Arts Center. Approximately at (39.166962, -86.517894) (4 decimal places should be fine)"
+    point_value: 20
+  - description: "Added to the lats and lons by variable reference (like referencing Luddy and Lindley)"
+    point_value: 20
+  - description: "Code Runs / Map generates"
+    point_value: 20
+- name: "Imaginary Numbers" # Testable
+  filename: "complex.py"
+  instructions: "Ensure no forbidden functions or libraries were used. Make sure the 'magic functions' return a new instance. If forbidden function is used, state in the comment what was used and that part of the problem gets a 0"
+  parts:
+  - description: "File runs"
+    point_value: 10
+  - description: "Implemented \_\_sub\_\_ reasonably correct"
+    point_value: 20
+  - description: "Implmeneted \_\_truediv\_\_ reasonably correct"
+    point_value: 20
+  - description: "Implmeneted modulus reasonably correct"
+    point_value: 20
+  - description: "Implmeneted polar reasonably correct"
+    point_value: 20
+  - description: "Our test values (15 per function)" # Update Josh
+    point_value: 40
+

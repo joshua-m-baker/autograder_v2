@@ -1,0 +1,7 @@
+numpy
+xlrd
+PyQt5
+matplotlib
+ruamel-yaml
+pandas
+tqdm

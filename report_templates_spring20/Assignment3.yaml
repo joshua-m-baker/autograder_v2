@@ -1,0 +1,74 @@
+assigned: 2020-02-06
+assignment: 3
+due: 2020-02-12
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 10
+    description: "Assignment 3 folder setup correctly"
+  - point_value: 25
+    description: "funwithfunctions.py, qc1.py, if.py, precmetal.py, and myclock.py exist and are named correctly (5 pts each)"
+  - point_value: 0
+    description: "General notes to be aware of, not a deduction of points"
+- name: "Problem 1"
+  filename: "funwithfunctions.py"
+  instructions: "TODO fill this in in the template"
+  parts:
+  - point_value: 90
+    description: "Functions produce correct output (10 pts for each)"
+  - point_value: 45
+    description: "Functions look correct/ a reasonable attempt was made (5 pts each)"
+  - point_value: 5
+    description: "Answering the deliverable question"
+  - point_value: 10
+    description: "Provided code, i.e, test code, is from original document"
+- name: "Problem 3"
+  filename: "qc1.py"
+  instructions: "They are not allowed to use cmath"
+  parts:
+  - description: "Code runs"
+    point_value: 10
+  - description: "Will print a message correctly depending on Complex or Not Complex"
+    point_value: 20
+  - description: "Function properly returns a tuple of values"
+    point_value: 20
+  - description: "Functions return proper values"
+    point_value: 50
+- name: "Problem 4"
+  filename: "if.py"
+  instructions: "Ensure the correct usage, if they just have a repeat of the above, give them a 0. All or nothing."
+  parts:
+  - description: "Part 1 converted from ifs to if-elif-else"
+    point_value: 15
+  - description: "Part 2 converted from 1 if to 2 ifs"
+    point_value: 15
+  - description: "Part 3 convert from many nots to fewer nots"
+    point_value: 15
+  - description: "Part 4 convert from one line to if-elif(s)-else"
+    point_value: 15
+- name: "Problem 5"
+  filename: "precmetal.py"
+  instructions: "Make sure they did not modify code outside of the function. holdings print statement needs fixed, last line should be changed from Au\_amt to Pa\_amt"
+  parts:
+  - description: "preciousMetalToDollars: returns the cost without modifying the original amount values. (5 pts per amount)"
+    point_value: 20
+  - description: "purchase: returns print statement, 2 lines if removing value, 1 line if not enough amount"
+    point_value: 25
+  - description: "purchase: Modifies the value correctly and does not change unless enough value is there"
+    point_value: 25
+  - description: "Did not modify original code"
+    point_value: 10
+- name: "Problem 6"
+  filename: "myclock.py"
+  instructions: "Each sub-part is all or nothing"
+  parts:
+  - point_value: 10
+    description: "Clock runs"
+  - point_value: 10
+    description: "Title name changed to the student's name"
+  - point_value: 10
+    description: "Font changed from 'arial' to 'gothic'"
+
+      

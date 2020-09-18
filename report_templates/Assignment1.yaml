@@ -1,0 +1,54 @@
+assigned: 2020-05-12
+assignment: 1
+due: 2020-05-16
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - description: "Assignment1 folder setup correctly"
+    point_value: 10
+  - description: "In folder: problems.py, myMath.py, thecost.py, myBall.py (5 each)"
+    point_value: 20
+  - description: "Any over comments that are in general"
+    point_value: 0
+- name: Problems
+  filename: problems.py
+  instructions: "If they used comments instead of print statements, take off 1 point for the printing error points"
+  parts:
+  - description: "Code runs"
+    point_value: 5
+  - description: "Comments out the error line for each problem or fixed the error (preferablly commented the error out) (2 pts each)"
+    point_value: 20
+  - description: "Reasonable description for the error (4 pts each) (0/4 if exact copy of the error)"
+    point_value: 40
+- name: Math Head
+  filename: myMath.py
+  instructions: "Just solves the equation"
+  parts:
+  - description: "Code runs"
+    point_value: 10
+  - description: "Completed the math statements"
+    point_value: 20
+  - description: "Has 2 print statements (with the correct values)"
+    point_value: 20
+- name: The Cost
+  filename: thecost.py
+  instructions: "Completed the calculation"
+  parts:
+  - description: "Code runs"
+    point_value: 10
+  - description: "Completed the TODO statement"
+    point_value: 20
+- name: Bouncing Ball
+  filename: myBall.py
+  instructions: ''
+  parts:
+  - description: "Code runs" 
+    point_value: 20
+  - description: "Asks for input"
+    point_value: 10
+  - description: "Completes the calculation"
+    point_value: 15
+  - description: "Output matches pre-made situation"
+    point_value: 10

@@ -1,0 +1,79 @@
+assigned: 2020-04-01
+assignment: 7
+due: 2020-04-09 # Due at 9 AM
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 10
+    description: "Assignment 7 folder setup correctly"
+  - point_value: 30
+    description: "In folder: recpractice.py, population.py, population.txt, rmg.py, isogram.py, hexagram.py (5 points each)"
+  - point_value: 0
+    description: "Any over comments that are in general"
+- name: "Recursion Practice"
+  filename: "recpractice.py"
+  instructions: "Ensure that they are using recursion. Don't trust the tests that students wrote"
+  parts:
+  - description: "Functions s, p, b, c, d, c18, b are written recursively (5 per function, all or nothing per function)"
+    point_value: 35
+  - description: "Functions s1, p1, d1 are written non-recursively (5 per function, all or nothing per function)"
+    point_value: 15
+  - description: "Functions s1, p1, d1 are has code that runs and looks reasonably correct (5 per function, all or nothing per function)"
+    point_value: 15
+  - description: "Functions s, p, b, c, d, c18, b has code that runs and looks reasonably correct (5 per function)"
+    point_value: 35
+  - description: "Our test values (5 per function)" # Update Josh
+    point_value: 50
+- name: "Population growth"
+  filename: "population.py"
+  instructions: "The location of the graph output (populationgraph.png) does not matter, there was a mistake in the code that made it save in the wrong place. "
+  parts:
+  - description: "Created the file `population.txt` inside of the Assignment7 folder with the correct"
+    point_value: 10
+  - description: "getData runs and returns a list of (tuples or lists) that correspond to the data file."
+    point_value: 20
+  - description: "p function runs and calculates the correct value."
+    point_value: 20
+  - description: "Completed the program inside of 'if name == main'"
+    point_value: 20
+  - description: "Graph outputted somewhere in repository"
+    point_value: 5
+- name: "RMG"
+  filename: "rmg.py"
+  instructions: "Check the code"
+  parts:
+  - description: "File runs"
+    point_value: 20
+  - description: "Function a solves the problem recusively"
+    point_value: 20
+  - description: "Function ad solves the problem bottom up and with memoization"
+    point_value: 20
+  - description: "Function h (generator) solves the problem as a generator"
+    point_value: 20
+  - description: "Our test values (15 per function)" # Update Josh
+    point_value: 45
+- name: "Isogram"
+  filename: "isogram.py"
+  instructions: "Check the code. Range is allowed and length, if they are doing it for the loop. Count is an automatic zero."
+  parts:
+  - description: "File runs"
+    point_value: 20
+  - description: "Code looks reasonably correct"
+    point_value: 30
+  - description: "Our test values " # Update Josh
+    point_value: 30
+  - description: "h function looks correct" # Update Josh
+    point_value: 15
+- name: "Hexadecimal"
+  filename: "hexagram.py"
+  instructions: "Check the code. If they use int with a base, a zero!"
+  parts:
+  - description: "File runs"
+    point_value: 20
+  - description: "Code looks reasonably correct"
+    point_value: 30
+  - description: "Our test values " # Update Josh
+    point_value: 30
+

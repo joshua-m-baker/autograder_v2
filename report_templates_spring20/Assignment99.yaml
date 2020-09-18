@@ -1,0 +1,44 @@
+assigned: 2020-4-27
+assignment: 99
+due: 2020-5-03
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 4
+    description: "FinalSpring2020 folder setup correctly"
+  - point_value: 6
+    description: "In folder: covid.py, sequence.fasta, game.py (2 each)"
+  - point_value: 0
+    description: "Any over comments that are in general"
+- name: "Covid"
+  filename: "covid.py" 
+  instructions: "If they significantly modify the provided code, take off 10 points. You will have students that write values outside of the comments, which is fine as long as it doesn't change the provided code"
+  parts:
+  - description: "Successfully reads in 'sequence.fasta'"
+    point_value: 4
+  - description: "Code runs (output does not matter for this one) (All or nothing)"
+    point_value: 10
+  - description: "Completed 'translate' that takes in the list and returns a string"
+    point_value: 10
+  - description: "Successfully reads in the file (Handles first line in code (0 points if they manually deleted the line from the file)). "
+    point_value: 10
+  - description: "Translate the strings from the file from DNA to RNA. (Can be mixed in with reading the file)"
+    point_value: 10
+- name: "Game"
+  filename: "game.py" 
+  instructions: "Make sure they follow the rules in the PDF"
+  parts:
+  - description: "Code runs (output does not matter for this points) (All or nothing)"
+    point_value: 8
+  - description: "Successfully handles first sum rules (7, 11, 2, 3, 12)"
+    point_value: 10
+  - description: "Successfully goes to next roll (if 4, 5, 6, 8, 9, 10)"
+    point_value: 12
+  - description: "Handles winning if matching 'first' sum"
+    point_value: 8
+  - description: "Handles losing if matching rolls 7 sum"
+    point_value: 8
+    
+  

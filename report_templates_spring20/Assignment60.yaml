@@ -1,0 +1,44 @@
+assigned: 2020-03-05
+assignment: 60
+due: 2020-04-01
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section. Because of naming stuff on this problem, don't take points off for misnamed/ missing assignment folder"
+  parts:
+  - point_value: 0
+    description: "General notes to be aware of, not a deduction of points"
+- name: "Problem 1"
+  filename: "letters.py"
+  instructions: "Manually check to make sure the function uses tail recursion"
+  parts:
+  - description: "foot function passes test cases (0 if tail recursion isn't used)"
+    point_value: 10
+  - description: "foot function looks correct"
+    point_value: 15 
+- name: "Problem 2"
+  filename: "travel.py"
+  instructions: "You can mostly go off the test cases for this one"
+  parts:
+  - description: "distance.txt file has the data in the correct format to be read in"
+    point_value: 5
+  - description: "d function passes test cases"
+    point_value: 10
+  - description: "d function looks correct"
+    point_value: 10
+- name: "Problem 3"
+  filename: "sorting.py"
+  instructions: "No test cases for this one, you just have to manually check it"
+  parts:
+  - description: "Code works correctly"
+    point_value: 10
+  - description: "Code looks correct"
+    point_value: 10
+- name: "Problem 4"
+  filename: "recur.py"
+  instructions: ""
+  parts:
+  - description: "x and y test cases"
+    point_value: 10
+  - description: "x and y functions look correct"
+    point_value: 20

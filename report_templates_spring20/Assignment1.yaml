@@ -1,0 +1,39 @@
+Header:
+  due: "January 29, 2020"
+  assigned: "January 22, 2020"
+
+Problems:
+  Problem 0:
+    file_name: "C200-Assignments"
+    point_breakdown:
+      - total_pts: 10
+        grading_note: "Assignment 1 folder setup correctly"
+      - total_pts: 15
+        grading_note: "windchill.py, creditcard.py, and pizza.py exist and are named correctly (5 pts each)"
+
+  Problem 1:
+    file_name: "windchill.py"
+    point_breakdown:
+      - total_pts: 5
+        grading_note: "Windchill function looks correct"
+    test_cases:
+      windchill:
+        total_pts: 20
+        grading_note: "Passes test cases (5 pts each)"
+
+  Problem 2:
+    file_name: "creditcard.py"
+    point_breakdown:
+      - grading_note: "A reasonable attempt was made"
+        total_pts: 15
+      - grading_note: "Code works correctly"
+        total_pts: 10
+
+  Problem 3: 
+    file_name: "pizza.py"
+    point_breakdown:
+      - grading_note: "A function was used"
+        total_pts: 5
+      - grading_note: "Graded on effort"
+        total_pts: 20
+      

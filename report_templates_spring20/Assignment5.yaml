@@ -1,0 +1,54 @@
+assigned: 2020-02-21
+assignment: 5
+due: 2020-02-24
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 10
+    description: "Assignment 5 folder setup correctly"
+  - point_value: 20
+    description: "add.py, magic.py, votetally.py, votes.txt (5 for each)"
+  - point_value: 0
+    description: "General notes to be aware of, not a deduction of points"
+- name: "Problem 1"
+  filename: "add.py"
+  instructions: "Will have to be manually checked. I believe they only needed to use 'configure'. At most 5 points if they only put the original code in"
+  parts:
+  - description: "Code runs"
+    point_value: 5
+  - description: "Does not modify code outside of function"
+    point_value: 10
+  - description: "Gets the function to modify the label"
+    point_value: 30
+- name: "Problem 2"
+  filename: "magic.py"
+  instructions: "Only returns a value"
+  parts:
+  - description: "Code runs"
+    point_value: 15
+  - description: "Returns a number"
+    point_value: 10
+  - description: "Code contains all of the operations (2 points per each)"
+    point_value: 14
+  - description: "Test values" # Update Josh
+    point_value: 20
+- name: "Problem 3"
+  filename: "votetally.py"
+  instructions: "There's a decent chance they didn't follow the directions and the path is wrong. If it is you'll have to change it (to Assignment5/votes.txt)"
+  parts:
+  - description: "Makes it easy to determine what the number of yes and no's are"
+    point_value: 10
+  - description: "Values are correct"
+    point_value: 20
+  - description: "Path to read is 'Assignment5/votes.txt' per the directions"
+    point_value: 20
+  - description: "Reads the file properly"
+    point_value: 10
+  - description: "Code runs"
+    point_value: 15
+
+
+
+      

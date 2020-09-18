@@ -1,0 +1,69 @@
+assigned: 2020-04-10
+assignment: 8
+due: 2020-04-16
+problems:
+- name: "Structuring"
+  filename: ""
+  instructions: "Put any general notes in this comment section"
+  parts:
+  - point_value: 10
+    description: "Assignment 8 folder setup correctly"
+  - point_value: 30
+    description: "In folder: fignewton.py, mybisect.py, game1.py, secant.py, easycalc.py, integralfile.txt (5 points each)"
+  - point_value: 0
+    description: "Any over comments that are in general"
+- name: "Newton Root"
+  filename: "fignewton.py"
+  instructions: "Check output carefully"
+  parts:
+  - description: "Function newton takes in 2 functions, a start, a tau and the number of iterations (order doesn't matter)"
+    point_value: 15
+  - description: "Code looks reasonably correct." 
+    point_value: 20
+  - description: "Output for function (x**6-x-1), tau (.001), x0 (100), iterations (5) matches homework"
+    point_value: 10
+  - description: "Output for function (x**6-x-1), tau (.0001), x0 (100), iterations (29) matches homework"
+    point_value: 10
+- name: "Bisection"
+  filename: "mybisect.py"
+  instructions: "Ensure the output matches the homework"
+  parts:
+  - description: "Function sign returns either 1 or -1. Cannot return another value or item"
+    point_value: 10
+  - description: "For or while loop version of bisect completed"
+    point_value: 35
+  - description: "EXTRA CREDIT (max 35): At most 35 points if output matches homework. Must have made more than 1/2 credit on loop version to get any credit"
+    point_value: 0
+- name: "Pygame"
+  filename: "game1.py"
+  instructions: "Check the code"
+  parts:
+  - description: "File runs"
+    point_value: 20
+  - description: "Dark green is used (regular green does not count (0, 255, 0)). All or nothing"
+    point_value: 10
+  - description: "Changes based on side that is hit. 10 points per side (all or nothing per side)"
+    point_value: 40
+- name: "Secant"
+  filename: "secant.py"
+  instructions: "Check the code"
+  parts:
+  - description: "For or while loop version of secant completed"
+    point_value: 35
+  - description: "EXTRA CREDIT (max 35): At most 35 points if output matches homework. Must have made more than 1/2 credit on loop version to get any credit"
+    point_value: 0
+- name: "Simspon" # Testable
+  filename: "easycalc.py"
+  instructions: "Check the code"
+  parts:
+  - description: "File runs"
+    point_value: 10
+  - description: "integralfile.txt is structured as the template file"
+    point_value: 10
+  - description: "simpson function looks reasonably correct"
+    point_value: 20
+  - description: "Output matches the output in the homework. "
+    point_value: 10
+  - description: "Our test values" # Update Josh
+    point_value: 20
+
